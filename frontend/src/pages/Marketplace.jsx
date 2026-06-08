@@ -105,7 +105,7 @@ const marketplace = () =>{
                         navigate("/buytoken?id=" + item.tokenName + "&int=" + item.RTI + "&seller=" + item.seller + "&maturityDate=" + item.maturityDate.slice(0,10) + "&price=" + item.price + "&fileName=" + item.fileName + "&tokenId="+item.tokenID);
                     }}
                     disabled = {item.owner===uid}
-                     className='text-sm pl-5 pt-2 pb-2 pr-5 mb-2 disabled:bg-gray-300 text-white bg-green-500 rounded-lg hover:bg-green-600 font-bold cursor-pointer' >
+                     className='text-sm pl-5 pt-2 pb-2 pr-5 mb-2 disabled:bg-gray-300 disabled:bg-red-600 bg-green-500 rounded-lg hover:bg-green-600 font-bold cursor-pointer' >
                         BUY
                     </button>
                     </td>

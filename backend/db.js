@@ -3,6 +3,8 @@ const express = require("express");
 const { string, number, boolean } = require("zod");
 
 
+mongoose.connect("YOUR_MONGODB_CONNECTION_STRING");
+
 
 const userSchema = new mongoose.Schema({
     username: {

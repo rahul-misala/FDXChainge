@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { PlusCircle, Landmark, ShoppingBagIcon, FileText, PieChart,ChartNoAxesCombined} from 'lucide-react';
-import bgImage from '../assets/BackgroundImage.png';
 import axios from 'axios';
 
 function Dashboard() {

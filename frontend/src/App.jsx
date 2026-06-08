@@ -29,9 +29,8 @@ function App() {
         <Routes>
           {/* Home Route */}
           <Route path="/" element={<Hero />} />
-          {/* Signup Route */}
+
           <Route path="/signup" element={<Signup />} />
-          {/* Login Route */}
           <Route path="/signin" element={<Signin />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/create-fd" element={<CreateFD />} />

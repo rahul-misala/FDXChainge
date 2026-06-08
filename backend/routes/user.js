@@ -27,7 +27,7 @@ router.post('/signup', async (req, res) => {
             username: body.username
         })
 
-        if (user && user._id) {
+        if (user && user._id) { 
             return res.status(400).json({
                 message: "Email already Taken/Incorrect Inputs"
             })
